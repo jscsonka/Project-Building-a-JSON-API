@@ -1,0 +1,32 @@
+{
+  "name": "project-building-a-json-api",
+  "version": "1.0.0",
+  "description": "JSON Project API",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jscsonka/Project-Building-a-JSON-API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jscsonka/Project-Building-a-JSON-API/issues"
+  },
+  "homepage": "https://github.com/jscsonka/Project-Building-a-JSON-API#readme",
+  "dependencies": {
+    "chalk": "^5.1.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^6.6.5",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "type": "module" 
+ }
+
