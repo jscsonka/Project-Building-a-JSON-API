@@ -4,7 +4,7 @@
   "description": "JSON Project API",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.js"
+    "dev": "nodemon server.js"
   },
   "repository": {
     "type": "git",

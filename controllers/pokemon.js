@@ -13,10 +13,12 @@ export const getPokemons = async (req, res) => {
 export const getPokemon = async (req, res) => {
   try {
     const { id } = req.params;
-    const pokemons = await Pokemon.findById(id);
+    console.log(id)
+    const pokemon = await Pokemon.findById(id)
+    console.log(pokemon)
 
-    if (pokemons) {
-      return res.json(pokemons);
+    if (pokemon) {
+      return res.json(pokemon);
     }
 
     res.status(404).json({ message: "Pokemon not found!" });
