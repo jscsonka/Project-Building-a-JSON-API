@@ -6,6 +6,7 @@ const router = Router();
 // add routes
 router.get("/", pokeRoutes.getPokemons)
 router.get("/:id", pokeRoutes.getPokemon)
+router.get("/:name", pokeRoutes.getPokemon)
 router.post("/", pokeRoutes.createPokemon)
 router.put("/:id", pokeRoutes.updatePokemon)
 router.delete("/:id", pokeRoutes.deletePokemon)
