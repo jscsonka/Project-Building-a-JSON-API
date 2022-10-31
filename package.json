@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon server.js",
-    "seed":"node --experimental-json-modules seed/data.js"
+    "seed":"node --experimental-json-modules seed/data.js",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
