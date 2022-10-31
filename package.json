@@ -4,7 +4,8 @@
   "description": "JSON Project API",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon server.js"
+    "dev": "nodemon server.js",
+    "seed":"node --experimental-json-modules seed/data.js"
   },
   "repository": {
     "type": "git",
