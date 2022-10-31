@@ -2,10 +2,11 @@
 import db from "../db/connection.js";
 import Pokemon from "../models/pokemon.js";
 import pokemons from "../db/pokemon.json" assert { type: "json" };
+import pokemon from "../models/pokemon.js";
 
 const insertData = async () => {
   // reset database
-  await db.dropDatabase();
+  await Pokemon.deleteMany({});
 
   // insert data
   await Pokemon.create(pokemons);
