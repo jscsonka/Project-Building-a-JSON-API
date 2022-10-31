@@ -34,4 +34,4 @@ The Pokemon API allows users to extract the following data for personal use:
 
 - This Pokemon API Utilizes a Pokemon API .json file found here:
   "https://www.kaggle.com/datasets/mofhasa/pokemon-data-simplified"
-  -Simpli sign in, and download the .json file if needed.
+  -Simply sign in, and download the .json file if needed.
