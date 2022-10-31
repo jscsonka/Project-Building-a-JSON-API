@@ -20,7 +20,7 @@ The Pokemon API allows users to extract the following data for personal use:
 
 ## Usage / Routing
 
-- The API has roujtes for full CRUD functionality and here are the methods to access:
+- The API has routes for full CRUD functionality and here are the methods to access:
   <ul> 
   <li> 1. Get Full Pokemon List: router.get("/", pokeRoutes.getPokemons)</li>
   <li> 2. Get a single Pokemon by _ID: router.get("/:id", pokeRoutes.getPokemon)</li>
@@ -34,4 +34,4 @@ The Pokemon API allows users to extract the following data for personal use:
 
 - This Pokemon API Utilizes a Pokemon API .json file found here:
   "https://www.kaggle.com/datasets/mofhasa/pokemon-data-simplified"
-  -Simpli sign in, and download the .json file if needed.
+  -Simply sign in, and download the .json file if needed.
